@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Бомжара</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="title.ico" type="image/xzicon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="lvl">
+                <h3 class="lvl_info">0 уровень</h3>
+                <div id="myProgress">
+                    <div id="myBar">
+                        <div id="label"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="need">
+                <div class="food">
+                    <span class="food_info">Голод </span>
+                    <div id="myProgress1">
+                        <div id="myBar1">
+                            <div id="label1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="health">
+                    <span class="health_info">Здоровье </span>
+                    <div id="myProgress1">
+                        <div id="myBar2">
+                            <div id="label1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_buttons">
+                <div class="main_buttons">
+                    <div class="m_btn">
+                        <button class="img_btn"><img src="bank.png" alt=""></button>
+                    </div>
+                    <div class="m_btn">
+                        <button class="img_btn"><img src="food.png" alt=""></button>
+                    </div>
+                    <div class="m_btn">
+                        <button class="img_btn"><img src="health.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="other_buttons">
+                    <div class="o_btn">
+                        <button class="other_btn">Образование</button>
+                    </div>
+                    <div class="o_btn">
+                        <button class="other_btn">Робота</button>
+                    </div>
+                    <div class="o_btn">
+                        <button class="other_btn">Бизнес</button>
+                    </div>
+                    <div class="o_btn">
+                        <button class="other_btn">Недвижимость</button>
+                    </div>
+                    <div class="o_btn">
+                        <button class="other_btn">Аксессуары</button>
+                    </div>
+                    <div class="o_btn">
+                        <button class="other_btn">Информация</button>
+                    </div>
+                    <div class="save_btn">
+                        <button class="other_btn">Сохранить игру</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content_click">
+                <div class="money">
+                    <div class="bottle">
+                        <img src="bottle.png" alt="">
+                        <span class="bottles">0</span>
+                    </div>
+                    <div class="uan">&#8372; 0</div>
+                    <div class="usd">&#36; 0</div>
+                </div>
+                <div class="click_window">
+                    <div class="screens_main first_screen">
+                        <h1>Банк</h1>
+                        <h2>Обменяйте свою валюту</h3>
+                            <div class="convert">
+                                <div class="bottles_uan">
+                                    <h3>Бутылки в гривны</h3>
+                                    <h3>Курс 1 к 1</h3>
+                                    <input class="uan_money" type="number">
+                                    <button>Подтвердить</button>
+                                </div>
+                                <div class="uan_usd">
+                                    <h3>Гривны в Доллары</h3>
+                                    <h3>Курс 0.035 к 1</h3>
+                                    <input class="usd_money" type="number">
+                                    <button>Подтвердить</button>
+                                </div>
+                                <div class="usd_uan">
+                                    <h3>Доллары в гривны</h3>
+                                    <h3>Курс 1 к 28</h3>
+                                    <input class="from_usd" type="number">
+                                    <button>Подтвердить</button>
+                                </div>
+                            </div>
+                            <div class="error"></div>
+                    </div>
+                    <div class="screens_main second_screen">
+                        <h1>Еда в &#8372</h1>
+                        <div class="food_content">
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="f0.jfif" alt="">
+                                    <button>FREE</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f1.jpg" alt="">
+                                    <button>FREE</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f2.jpg" alt="">
+                                    <button>FREE</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f3.jpg" alt="">
+                                    <button>30</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="f4.jpg" alt="">
+                                    <button>75</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f5.jpg" alt="">
+                                    <button>110</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f6.jpg" alt="">
+                                    <button>200</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f7.jpeg" alt="">
+                                    <button>390</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="f8.jpg" alt="">
+                                    <button>550</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f9.png" alt="">
+                                    <button>890</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f10.jpg" alt="">
+                                    <button>2500</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="f11.jpg" alt="">
+                                    <button>4350</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screens_main health_screen">
+                        <h1>Лечение в &#8372</h1>
+                        <div class="food_content">
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="h1.jfif" alt="">
+                                    <button>FREE</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="h2.jfif" alt="">
+                                    <button>50</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="h3.jfif" alt="">
+                                    <button>250</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="h4.jfif" alt="">
+                                    <button>700</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="h5.jfif" alt="">
+                                    <button>1700</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="h6.jfif" alt="">
+                                    <button>5500</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screens_main study">
+                        <h1>Образование</h1>
+                        <div class="study_cont">
+                            <div class="food_block">
+                                <button>Начальное - 2000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Школа - 10000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Высшее - 70000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Курсы по коммуникациям - 600000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Курсы по управлению компанией - 850000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Курсы по финансам - 1500000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Курсы по коучингу - 3000000&#8372;</button>
+                            </div>
+                            <div class="food_block">
+                                <button>Бизнес-школа - 5000000&#8372;</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screens_main job">
+                        <h1>Работа</h1>
+                        <div class="food_content">
+                            <div class="part">
+                                <div class="food_block">
+                                    <button>Собирать бутылки</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Шарить по мусоркам</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Пройтись по элитному району</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Попрошайничать</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Подметать дворы</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <button>Завод</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Курьер</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Работать в офисе</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Руководить отделом</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Замещать директора</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <button>Управлять компанией</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Биржа</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Провести коуч-тренинг</button>
+                                </div>
+                                <div class="food_block">
+                                    <button>Создать стартап</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="error1"></div>
+                    </div>
+                    <div class="screens_main business">
+                        <h1>Бизнес</h1>
+                        <div class="cont">
+                            <div class="food_block">
+                                <h3>Старший бомж</h3>
+                                <button>10К бутылок</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Сбор бутылок</h3>
+                                <button>50К &#8372</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Производство спичек</h3>
+                                <button>500К &#8372</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Продуктовый магазин</h3>
+                                <button>1КК &#8372</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Производство кирпича</h3>
+                                <button>100К &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Элитная мастерская авто</h3>
+                                <button>500К &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Сеть спорт-залов</h3>
+                                <button>1КК &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Компания по созданию веб-сайтов</h3>
+                                <button>3,5КК &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Шоколадная фабрика</h3>
+                                <button>5КК &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Куръерская служба</h3>
+                                <button>15КК</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Сеть автосалонов</h3>
+                                <button>50КК &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Нефтевая компания</h3>
+                                <button>100КК &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Автомобильный завод</h3>
+                                <button>250КК &#36</button>
+                            </div>
+                            <div class="food_block">
+                                <h3>Космический туризм</h3>
+                                <button>1ККК &#36</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screens_main property">
+                        <h1>Недвижимость</h1>
+                        <div class="food_content">
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="11.jfif" alt="">
+                                    <button>1K &#8372</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="12.jfif" alt="">
+                                    <button>90K &#8372</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="13.jfif" alt="">
+                                    <button>890K &#8372</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="1.jfif" alt="">
+                                    <button>70K &#36</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="2.jfif" alt="">
+                                    <button>115K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="3.jfif" alt="">
+                                    <button>230K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="4.jfif" alt="">
+                                    <button>250K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="5.jfif" alt="">
+                                    <button>420K &#36</button>
+                                </div>
+
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="14.jfif" alt="">
+                                    <button>20K &#8372</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="15.jfif" alt="">
+                                    <button>1.5K &#8372</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="9.jfif" alt="">
+                                    <button>550K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="10.jfif" alt="">
+                                    <button>2500K &#36</button>
+                                </div>
+                            </div>
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="6.jfif" alt="">
+                                    <button>1050K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="7.jfif" alt="">
+                                    <button>9500K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="8.jfif" alt="">
+                                    <button>25KK &#36</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screens_main accessories">
+                        <h1>Аксессуары</h1>
+                        <div class="food_content">
+                            <div class="part">
+                                <div class="food_block">
+                                    <img src="a1.jfif" alt="">
+                                    <button>1K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="a2.jfif" alt="">
+                                    <button>3K &#36</button>
+                                </div>
+                                <div class="food_block">
+                                    <img src="a3.jfif" alt="">
+                                    <button>45K &#36</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screens_main info">
+                        <h1>Информация</h1>
+                        <div class="food_content">
+                            <div class="target">Работа</div>
+                            <div class="food_block">
+                                Собрать бутылки - 0 lvl
+                            </div>
+                            <div class="food_block">
+                                Шарить по мусоркам - 2 lvl
+                            </div>
+                            <div class="food_block">
+                                Пройтись по элитному району - 5 lvl
+                            </div>
+                            <div class="food_block">
+                                Попрошайничать - 6 lvl
+                            </div>
+                            <div class="food_block">
+                                Подметать дворы - 9 lvl (Начальное)
+                            </div>
+                            <div class="food_block">
+                                Завод - 14 lvl (Школа)
+                            </div>
+                            <div class="food_block">
+                                Курьер - 20 lvl (Школа)
+                            </div>
+                            <div class="food_block">
+                                Работать в офисе - 27 lvl (Высшее)
+                            </div>
+                            <div class="food_block">
+                                Руководить отделом - 35 lvl (Курсы по коммуникациям)
+                            </div>
+                            <div class="food_block">
+                                Замещать директора - 48 lvl (Курсы по управлению компанией)
+                            </div>
+                            <div class="food_block">
+                                Управлять компанией - 62 lvl (Курсы по финансам)
+                            </div>
+                            <div class="food_block">
+                                Биржа - 70 lvl (курсы по финансам)
+                            </div>
+                            <div class="food_block">
+                                Провести коуч-тренинг - 75 lvl (Курсы по коуч-тренингу)
+                            </div>
+                            <div class="food_block">
+                                Создать стартап - 80 lvl (Бизнес школа)
+                            </div>
+                        </div>
+                        <div class="food_content">
+                            <div class="target1">ВАЖНО</div>
+                            <div class="infoo">Если ваши потребности будут на исходе, вы можете умереть и потерять
+                                весь прогресс! Сделите за едой и здоровьем!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
