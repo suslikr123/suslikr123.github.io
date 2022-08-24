@@ -711,10 +711,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                     checkLvl();
                     checkNeed(1, 1);
                 }
-                else {
+                /*else {
                     er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                     setTimeout(() => er.textContent = "", 2000);
-                }
+                }*/
             });
         }
         if (i == 2) {
@@ -732,10 +732,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                     checkLvl();
                     checkNeed(1, 1);
                 }
-                else {
+                /*else {
                     er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                     setTimeout(() => er.textContent = "", 2000);
-                }
+                }*/
             });
         }
         if (i == 3) {
@@ -749,10 +749,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                     checkLvl();
                     checkNeed(1, 1);
                 }
-                else {
+                /*else {
                     er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                     setTimeout(() => er.textContent = "", 2000);
-                }
+                }*/
             });
         }
         if (i == 4) {
@@ -769,10 +769,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkNeed(1, 1);
                         }
                     }
-                    else {
+                    /*else {
                         er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                         setTimeout(() => er.textContent = "", 2000);
-                    }
+                    }*/
                 })
             });
         }
@@ -790,10 +790,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkNeed(1, 1);
                         }
                     }
-                    else {
+                    /*else {
                         er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                         setTimeout(() => er.textContent = "", 2000);
-                    }
+                    }*/
                 })
             });
         }
@@ -811,10 +811,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkNeed(1, 1);
                         }
                     }
-                    else {
+                    /*else {
                         er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                         setTimeout(() => er.textContent = "", 2000);
-                    }
+                    }*/
                 })
             });
         }
@@ -831,10 +831,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkLvl();
                             checkNeed(2, 2);
                         }
-                        else {
+                        /*else {
                             er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                             setTimeout(() => er.textContent = "", 2000);
-                        }
+                        }*/
                     }
                 })
             });
@@ -852,10 +852,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkLvl();
                             checkNeed(2, 2);
                         }
-                        else {
+                        /*else {
                             er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                             setTimeout(() => er.textContent = "", 2000);
-                        }
+                        }*/
                     }
                 })
             });
@@ -873,10 +873,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkLvl();
                             checkNeed(2.5, 2.5);
                         }
-                        else {
+                        /*else {
                             er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                             setTimeout(() => er.textContent = "", 2000);
-                        }
+                        }*/
                     }
                 })
             });
@@ -894,10 +894,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkLvl();
                             checkNeed(2.5, 2.5);
                         }
-                        else {
+                        /*else {
                             er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                             setTimeout(() => er.textContent = "", 2000);
-                        }
+                        }*/
                     }
                 })
             });
@@ -915,10 +915,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkLvl();
                             checkNeed(3, 3);
                         }
-                        else {
+                        /*else {
                             er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                             setTimeout(() => er.textContent = "", 2000);
-                        }
+                        }*/
                     }
                 })
             });
@@ -937,10 +937,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkNeed(3, 3);
                         }
                     }
-                    else {
+                    /*else {
                         er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                         setTimeout(() => er.textContent = "", 2000);
-                    }
+                    }*/
                 })
             });
         }
@@ -959,10 +959,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
                             checkNeed(3, 3);
                         }
                     }
-                    else {
+                    /*else {
                         er.textContent = "Возникла ошибка, прочитайте раздел 'Информация'";
                         setTimeout(() => er.textContent = "", 2000);
-                    }
+                    }*/
                 })
             });
         }
